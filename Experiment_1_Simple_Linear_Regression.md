@@ -57,12 +57,12 @@ mse = np.sum((y - y_pred) ** 2) / n
 print("MSE:", mse)
 
 # -----------------------------
-# Manual R²
+# Manual R^2
 # -----------------------------
 SS_res = np.sum((y - y_pred) ** 2)
 SS_tot = np.sum((y - m_y) ** 2)
 r2 = 1 - (SS_res / SS_tot)
-print("R²:", r2)
+print("R^2:", r2)
 
 # -----------------------------
 # Plot regression line
